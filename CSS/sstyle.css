@@ -1,0 +1,130 @@
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-size: larger;
+}
+body {
+  font-family: Calibri, Helvetica, sans-serif;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.bg-img {
+  background-image: url("https://cdn.wallpapersafari.com/13/68/pqnscG.jpg"); opacity: 0.9;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+  height: 165%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: rgba(250, 254, 255, 0.952);
+  font-weight: bold;
+  border: 2px solid rgba(250, 254, 255, 0.95);
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  opacity: initial;
+font-size: larger;
+}
+
+div {
+  padding: 10px 20px;
+}
+
+
+label{
+    float: left;
+    font-size: x-large;
+
+}
+textarea {
+  width: 90%;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: none;
+  background: rgb(159, 150, 150);
+  opacity: 0.4;
+  border-radius: 10px;
+  font-size: x-large;
+  color: #0c0c0e;
+}
+
+input[type="radio"],input[type="checkbox"]{
+  font-size: larger;
+  border: none;
+  margin: 0px 5px 0px 25px;
+  background: rgb(0, 0, 0);
+  opacity: 0.4;
+  border-radius: 10px;
+}
+
+
+select,input[type="number"],input[type="text"]{
+
+
+    opacity: 0.4;
+    color:black;
+    width: 90%; 
+    padding: 10px;
+    border-radius: 10px;
+  background: rgb(159, 150, 150);
+  font-size: large;
+}
+
+option{
+    color: black;
+    background-color: honeydew;
+}
+input[type="submit"],
+input[type="reset"] {
+  background-color: white ;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  border-radius: 10px;
+  animation: effect1 20s infinite alternate; 
+  
+}
+
+h1 {
+  font-size: 50px;
+  font-family: serif;
+  color: transparent;
+  text-align: center;
+  animation: effect 20s infinite alternate; 
+  color :rgb(255, 255, 255);
+  
+}
+
+table, th, td{
+  border:2px solid white;
+  width: 870px;
+  word-break: break-word;
+}
+
